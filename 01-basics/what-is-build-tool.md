@@ -1,5 +1,5 @@
 
-<!-- what is the build tool and what it does 
+## what is the build tool and what it does 
 1. 
 build tool take our raw source code and transform into runnable application that understand by the browser 
 there are several modern build tool available in the market 
@@ -8,7 +8,7 @@ there are several modern build tool available in the market
 3. esbuild
 
 
-process of build tool :
+## process of build tool :
 1. transpilation : converting the row es6 or typescript code or jsx code into html css javascript that older version can
 also understand 
 2. bundling : combining hundres of small code files into one or two large file to reduce the number of http 
@@ -17,7 +17,7 @@ request
 4. assets optimization :  compressing the images and converting sass/less into standard css code 
 5. tree shaking ( remove the dead code ( unused code)) : removing the unused code from the final bundle so it reduce the line of code
 6. HMR : hot module Replacement : Automatically update the browser when we make any changes in the code : >
- -->
+
 
 ## working of the HMR : 
 1. file modification : when the developer make any changes in the code then the build tool detect  that changes 
