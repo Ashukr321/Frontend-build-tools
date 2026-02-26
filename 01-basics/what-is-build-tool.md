@@ -19,6 +19,7 @@ request
 6. HMR : hot module Replacement : Automatically update the browser when we make any changes in the code : >
 
 
+
 ## working of the HMR : 
 1. file modification : when the developer make any changes in the code then the build tool detect  that changes 
 3. delta calcalation : build tool ( bundler ) calculate the delta ( changes ) between the old and new code 
