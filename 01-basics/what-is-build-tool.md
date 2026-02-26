@@ -16,7 +16,7 @@ request
 3. minification : removing the white space and comments from the code to reduce the file size 
 4. assets optimization :  compressing the images and converting sass/less into standard css code 
 5. tree shaking ( remove the dead code ( unused code)) : removing the unused code from the final bundle so it reduce the line of code
-6. HMR : hot module Replacement : Automatically update the browser when we make any changes in the code : >
+6. HMR : hot module Replacement : Automatically update the browser when we make any changes in the code : 
 
 
 
@@ -36,4 +36,5 @@ the bundler does not create the dist build file instead
 the bundler create the bundle and keep it in the ram 
 and create a local developement server it may run on port 5173 and 3000 
 and when browser ask for index.html file browser read from the ram and serve it to the browser  
+
 
